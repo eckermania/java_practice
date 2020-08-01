@@ -33,5 +33,44 @@ public class Main {
         result %= 3;
 
 
+        boolean isAlien = true;
+        if (isAlien == false) {
+         System.out.println("It is not an alien!");
+         System.out.println("And I am scared of aliens!");
+        }
+
+        int topScore = 80;
+        if (topScore >= 100){
+           System.out.println("You got the high score!");
+        }
+
+        int secondTopScore = 81;
+        if ((topScore > secondTopScore) && (topScore < 100)){
+          System.out.println("Greater than second top score and less than 100.");
+        }
+
+        // single | is a bitwise operator
+        if ((topScore > 90) || (secondTopScore <= 90)){
+         System.out.println("Either or both of the conditions are true.");
+        }
+
+        int newValue = 50;
+        if(newValue == 50){
+         System.out.println("This is true.");
+        }
+
+        boolean isCar = false;
+        if(isCar){
+          System.out.println("This isn't supposed to happen.");
+        }
+
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if (wasCar){
+         System.out.println("wasCar is true");
+        }
+
+        // Summary of operators on docs.oracle.com & cs.bilkent.edu.tr has table on java operator precedence
+
     }
 }
