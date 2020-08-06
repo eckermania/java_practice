@@ -27,5 +27,13 @@ public class Main {
 //        TeenNumberChecker.hasTeen(23,15,42);
 //        TeenNumberChecker.hasTeen(22, 23, 34);
 //        TeenNumberChecker.hasTeen(5, 55,14);
+//        System.out.println(SecondsAndMinutes.getDurationString(155, 40));
+//        System.out.println(SecondsAndMinutes.getDurationString(1000));
+//        System.out.println(SecondsAndMinutes.getDurationString(5, -1));
+//        System.out.println(AreaCalculator.area(3));
+//        System.out.println(AreaCalculator.area(5, 10));
+        MinutesToYearsDaysCalculator.printYearsAndDays(5012354);
+
+
     }
 }
